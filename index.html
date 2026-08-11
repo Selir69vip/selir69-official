@@ -4,23 +4,99 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>SELIR69 Official | Web Development, SEO & Digital Marketing</title>
+  <title>SELIR69 Official | Web Development, SEO & Digital Marketing Indonesia</title>
 
-  <meta name="description" content="SELIR69 Official adalah pusat dokumentasi publik untuk web development, SEO, digital marketing, website optimization, dan technical documentation di Indonesia.">
+  <meta
+    name="description"
+    content="SELIR69 Official adalah pusat dokumentasi publik mengenai web development, SEO, technical SEO, digital marketing, website optimization, dan digital publishing di Indonesia."
+  >
 
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="author" content="SELIR69 Official">
+  <meta name="theme-color" content="#070b12">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 
-  <link rel="canonical" href="https://selir69vip.github.io/selir69-official/">
+  <link
+    rel="canonical"
+    href="https://selir69vip.github.io/selir69-official/"
+  >
 
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="SELIR69 Official | Web Development, SEO & Digital Marketing">
-  <meta property="og:description" content="Dokumentasi publik SELIR69 mengenai web development, SEO, digital marketing, website optimization, dan pengembangan sumber daya digital.">
-  <meta property="og:url" content="https://selir69vip.github.io/selir69-official/">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="SELIR69 Official">
 
+  <meta
+    property="og:title"
+    content="SELIR69 Official | Web Development, SEO & Digital Marketing Indonesia"
+  >
+
+  <meta
+    property="og:description"
+    content="Dokumentasi publik SELIR69 mengenai web development, SEO, technical SEO, digital marketing, website optimization, dan pengembangan sumber daya digital."
+  >
+
+  <meta
+    property="og:url"
+    content="https://selir69vip.github.io/selir69-official/"
+  >
+
+  <!-- X / Twitter -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="SELIR69 Official">
-  <meta name="twitter:description" content="Web development, SEO, digital marketing dan technical documentation untuk Indonesia.">
+
+  <meta
+    name="twitter:title"
+    content="SELIR69 Official | Web Development & SEO"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Dokumentasi publik SELIR69 mengenai web development, SEO, digital marketing, dan website optimization untuk Indonesia."
+  >
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://selir69vip.github.io/selir69-official/#website",
+        "url": "https://selir69vip.github.io/selir69-official/",
+        "name": "SELIR69 Official",
+        "description": "Dokumentasi publik SELIR69 mengenai web development, SEO, technical SEO, digital marketing, website optimization, dan digital publishing.",
+        "inLanguage": "id-ID",
+        "publisher": {
+          "@id": "https://selir69vip.github.io/selir69-official/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://selir69vip.github.io/selir69-official/#webpage",
+        "url": "https://selir69vip.github.io/selir69-official/",
+        "name": "SELIR69 Official | Web Development, SEO & Digital Marketing Indonesia",
+        "description": "Pusat dokumentasi publik SELIR69 untuk web development, SEO, technical SEO, digital marketing, website optimization, dan digital publishing.",
+        "isPartOf": {
+          "@id": "https://selir69vip.github.io/selir69-official/#website"
+        },
+        "about": {
+          "@id": "https://selir69vip.github.io/selir69-official/#organization"
+        },
+        "inLanguage": "id-ID"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://selir69vip.github.io/selir69-official/#organization",
+        "name": "SELIR69 Official",
+        "url": "https://selir69.org/",
+        "sameAs": [
+          "https://github.com/Selir69vip",
+          "https://github.com/Selir69vip/selir69-official"
+        ]
+      }
+    ]
+  }
+  </script>
 
   <style>
     :root {
@@ -45,10 +121,22 @@
 
     body {
       margin: 0;
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
       background:
-        radial-gradient(circle at top right, rgba(240,180,41,.08), transparent 30%),
+        radial-gradient(
+          circle at top right,
+          rgba(240, 180, 41, 0.08),
+          transparent 30%
+        ),
         var(--bg);
+
       color: var(--text);
       line-height: 1.7;
     }
@@ -58,6 +146,28 @@
       text-decoration: none;
     }
 
+    a:focus-visible {
+      outline: 3px solid var(--accent2);
+      outline-offset: 4px;
+      border-radius: 4px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      z-index: 999;
+      background: var(--accent);
+      color: #111;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-weight: 700;
+    }
+
+    .skip-link:focus {
+      top: 20px;
+    }
+
     .container {
       width: min(1120px, calc(100% - 40px));
       margin: auto;
@@ -65,7 +175,7 @@
 
     header {
       border-bottom: 1px solid var(--line);
-      background: rgba(7,11,18,.92);
+      background: rgba(7, 11, 18, 0.92);
       position: sticky;
       top: 0;
       z-index: 10;
@@ -83,7 +193,7 @@
     .brand {
       font-size: 21px;
       font-weight: 800;
-      letter-spacing: .4px;
+      letter-spacing: 0.4px;
     }
 
     .brand span {
@@ -108,17 +218,17 @@
     .badge {
       display: inline-block;
       padding: 7px 13px;
-      border: 1px solid rgba(240,180,41,.35);
+      border: 1px solid rgba(240, 180, 41, 0.35);
       border-radius: 999px;
       color: var(--accent2);
-      background: rgba(240,180,41,.07);
+      background: rgba(240, 180, 41, 0.07);
       font-size: 13px;
       font-weight: 700;
       margin-bottom: 22px;
     }
 
     h1 {
-      max-width: 850px;
+      max-width: 900px;
       margin: 0 0 22px;
       font-size: clamp(42px, 7vw, 74px);
       line-height: 1.05;
@@ -130,7 +240,7 @@
     }
 
     .hero p {
-      max-width: 760px;
+      max-width: 800px;
       color: var(--muted);
       font-size: 19px;
       margin-bottom: 34px;
@@ -148,6 +258,7 @@
       border-radius: 8px;
       font-weight: 700;
       border: 1px solid var(--line);
+      transition: 0.2s ease;
     }
 
     .btn-primary {
@@ -156,8 +267,14 @@
       border-color: var(--accent);
     }
 
+    .btn-primary:hover {
+      background: var(--accent2);
+      border-color: var(--accent2);
+    }
+
     .btn-secondary:hover {
       border-color: var(--accent);
+      color: var(--accent2);
     }
 
     section {
@@ -166,12 +283,13 @@
 
     .section-title {
       font-size: 32px;
+      line-height: 1.25;
       margin: 0 0 12px;
     }
 
     .section-intro {
       color: var(--muted);
-      max-width: 760px;
+      max-width: 800px;
       margin-bottom: 35px;
     }
 
@@ -185,7 +303,12 @@
       padding: 27px;
       border: 1px solid var(--line);
       border-radius: 13px;
-      background: linear-gradient(145deg, var(--card), var(--card2));
+      background:
+        linear-gradient(
+          145deg,
+          var(--card),
+          var(--card2)
+        );
     }
 
     .card h3 {
@@ -206,7 +329,7 @@
     }
 
     .about-box {
-      max-width: 850px;
+      max-width: 900px;
     }
 
     .about-box p {
@@ -224,7 +347,7 @@
       border: 1px solid var(--line);
       border-radius: 10px;
       background: var(--card);
-      transition: .2s ease;
+      transition: 0.2s ease;
     }
 
     .doc-link:hover {
@@ -240,6 +363,26 @@
     .doc-link span {
       color: var(--muted);
       font-size: 14px;
+    }
+
+    .resource-list {
+      margin-top: 35px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .resource-list a {
+      padding: 9px 13px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .resource-list a:hover {
+      border-color: var(--accent);
+      color: var(--accent2);
     }
 
     footer {
@@ -274,77 +417,139 @@
         letter-spacing: -1px;
       }
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition: none !important;
+      }
+    }
   </style>
 </head>
 
 <body>
 
+<a class="skip-link" href="#main-content">
+  Langsung ke konten utama
+</a>
+
 <header>
   <div class="container">
-    <nav>
-      <a class="brand" href="./">SELIR<span>69</span> Official</a>
+
+    <nav aria-label="Navigasi utama">
+
+      <a
+        class="brand"
+        href="./"
+        aria-label="SELIR69 Official - Beranda"
+      >
+        SELIR<span>69</span> Official
+      </a>
 
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#expertise">Expertise</a>
         <a href="#documentation">Documentation</a>
-        <a href="https://github.com/Selir69vip/selir69-official">GitHub</a>
+
+        <a
+          href="https://github.com/Selir69vip/selir69-official"
+          rel="noopener"
+        >
+          GitHub
+        </a>
       </div>
+
     </nav>
+
   </div>
 </header>
 
-<main>
 
-  <section class="hero">
+<main id="main-content">
+
+  <section class="hero" aria-labelledby="hero-title">
     <div class="container">
 
-      <div class="badge">SELIR69 • Digital Project Indonesia</div>
+      <div class="badge">
+        SELIR69 • Digital Project Indonesia
+      </div>
 
-      <h1>
-        Building Better Digital Resources with
+      <h1 id="hero-title">
+        Web Development, SEO & Digital Resources with
         <span>SELIR69</span>
       </h1>
 
       <p>
-        SELIR69 Official merupakan pusat dokumentasi publik yang berfokus pada
-        web development, search engine optimization, digital marketing,
-        website optimization, dan technical documentation untuk audiens Indonesia.
+        SELIR69 Official merupakan pusat dokumentasi publik yang
+        berfokus pada web development, search engine optimization,
+        technical SEO, digital marketing, website optimization,
+        dan technical documentation untuk audiens Indonesia.
       </p>
 
       <div class="buttons">
-        <a class="btn btn-primary"
-           href="https://selir69.org/">
+
+        <a
+          class="btn btn-primary"
+          href="https://selir69.org/"
+          rel="noopener"
+        >
           Visit SELIR69
         </a>
 
-        <a class="btn btn-secondary"
-           href="https://github.com/Selir69vip/selir69-official">
+        <a
+          class="btn btn-secondary"
+          href="https://github.com/Selir69vip/selir69-official"
+          rel="noopener"
+        >
           View Repository
         </a>
+
       </div>
 
     </div>
   </section>
 
 
-  <section id="about" class="about">
+  <section
+    id="about"
+    class="about"
+    aria-labelledby="about-title"
+  >
     <div class="container">
       <div class="about-box">
 
-        <h2 class="section-title">About SELIR69</h2>
+        <h2
+          id="about-title"
+          class="section-title"
+        >
+          About SELIR69
+        </h2>
 
         <p>
-          SELIR69 mengembangkan dan memelihara sumber daya digital dengan
-          penekanan pada struktur website yang terorganisasi, aksesibilitas
-          informasi, performa teknis, serta visibilitas yang berkelanjutan.
+          SELIR69 mengembangkan dan memelihara sumber daya digital
+          dengan penekanan pada struktur website yang terorganisasi,
+          aksesibilitas informasi, performa teknis, pengalaman pengguna,
+          dan visibilitas digital yang berkelanjutan.
         </p>
 
         <p>
-          Repository SELIR69 Official digunakan sebagai pusat dokumentasi publik
-          untuk mencatat pengembangan web, optimasi website, praktik SEO,
-          digital publishing, dan berbagai materi teknis yang berkaitan dengan
-          pengembangan proyek digital.
+          Repository SELIR69 Official berfungsi sebagai pusat
+          dokumentasi publik untuk pengembangan web, optimasi website,
+          praktik SEO, technical SEO, digital publishing, dan berbagai
+          sumber daya teknis yang berkaitan dengan pengembangan proyek
+          digital.
+        </p>
+
+        <p>
+          Dokumentasi disusun agar informasi mengenai struktur website,
+          search accessibility, optimasi performa, dan digital marketing
+          dapat ditemukan melalui satu repository publik yang
+          terorganisasi.
         </p>
 
       </div>
@@ -352,107 +557,236 @@
   </section>
 
 
-  <section id="expertise">
+  <section
+    id="expertise"
+    aria-labelledby="expertise-title"
+  >
     <div class="container">
 
-      <h2 class="section-title">Digital Expertise</h2>
+      <h2
+        id="expertise-title"
+        class="section-title"
+      >
+        SELIR69 Digital Expertise
+      </h2>
 
       <p class="section-intro">
-        Area utama yang menjadi bagian dari pengembangan dan dokumentasi
-        proyek digital SELIR69.
+        Area utama yang menjadi bagian dari pengembangan,
+        pengelolaan, optimasi, dan dokumentasi proyek digital
+        SELIR69.
       </p>
 
       <div class="grid">
 
         <article class="card">
           <h3>Web Development</h3>
+
           <p>
             Pengembangan struktur website yang terorganisasi,
-            responsif, ringan, dan mudah digunakan.
+            responsif, efisien, mudah digunakan, dan dapat
+            dipelihara secara berkelanjutan.
           </p>
         </article>
+
 
         <article class="card">
           <h3>Search Engine Optimization</h3>
+
           <p>
-            Dokumentasi mengenai struktur informasi, technical SEO,
-            metadata, internal linking, dan search visibility.
+            Dokumentasi mengenai struktur informasi, metadata,
+            internal linking, indexability, content architecture,
+            dan organic search visibility.
           </p>
         </article>
+
+
+        <article class="card">
+          <h3>Technical SEO</h3>
+
+          <p>
+            Pengelolaan crawlability, canonical URL, XML sitemap,
+            robots directives, structured data, HTTP status,
+            dan performa teknis website.
+          </p>
+        </article>
+
 
         <article class="card">
           <h3>Digital Marketing</h3>
+
           <p>
-            Pengembangan identitas digital, distribusi informasi,
-            serta konsistensi brand pada berbagai kanal online.
+            Pengembangan identitas digital, strategi konten,
+            distribusi informasi, organic discovery,
+            dan konsistensi brand pada kanal online.
           </p>
         </article>
+
 
         <article class="card">
           <h3>Website Optimization</h3>
+
           <p>
             Fokus pada performa, pengalaman pengguna,
-            struktur halaman, dan efisiensi sumber daya website.
+            responsive design, struktur halaman,
+            serta efisiensi sumber daya website.
           </p>
         </article>
 
-        <article class="card">
-          <h3>Technical Documentation</h3>
-          <p>
-            Dokumentasi publik yang membantu menjelaskan struktur,
-            implementasi, dan perkembangan proyek secara sistematis.
-          </p>
-        </article>
 
         <article class="card">
           <h3>Digital Publishing</h3>
+
           <p>
-            Penyusunan konten dan sumber daya digital yang mudah
-            ditemukan, dibaca, dipahami, dan dipelihara.
+            Penyusunan informasi dan sumber daya digital
+            yang mudah ditemukan, dibaca, dipahami,
+            diperbarui, dan dipelihara.
           </p>
         </article>
 
       </div>
+
     </div>
   </section>
 
 
-  <section id="documentation">
+  <section
+    id="documentation"
+    aria-labelledby="documentation-title"
+  >
     <div class="container">
 
-      <h2 class="section-title">SELIR69 Documentation</h2>
+      <h2
+        id="documentation-title"
+        class="section-title"
+      >
+        SELIR69 Documentation
+      </h2>
 
       <p class="section-intro">
-        Akses dokumentasi utama yang tersedia pada repository SELIR69 Official.
+        Akses dokumentasi utama yang tersedia pada repository
+        SELIR69 Official untuk SEO, technical SEO,
+        web development, dan digital marketing.
       </p>
+
 
       <div class="documentation">
 
-        <a class="doc-link"
-           href="https://github.com/Selir69vip/selir69-official/blob/main/README.md">
+        <a
+          class="doc-link"
+          href="https://github.com/Selir69vip/selir69-official/blob/main/README.md"
+          rel="noopener"
+        >
           <strong>Project README</strong>
-          <span>Informasi utama mengenai repository dan proyek SELIR69.</span>
+
+          <span>
+            Informasi utama mengenai repository dan proyek
+            SELIR69 Official.
+          </span>
         </a>
 
-        <a class="doc-link"
-           href="https://github.com/Selir69vip/selir69-official/tree/main/docs">
-          <strong>Documentation Directory</strong>
-          <span>Kumpulan dokumentasi pengembangan dan digital marketing.</span>
+
+        <a
+          class="doc-link"
+          href="https://github.com/Selir69vip/selir69-official/blob/main/docs/seo.md"
+          rel="noopener"
+        >
+          <strong>SEO Documentation</strong>
+
+          <span>
+            Dokumentasi search engine optimization,
+            internal linking, metadata, dan organic visibility.
+          </span>
         </a>
 
-        <a class="doc-link"
-           href="https://github.com/Selir69vip/selir69-official/blob/main/SECURITY.md">
+
+        <a
+          class="doc-link"
+          href="https://github.com/Selir69vip/selir69-official/blob/main/docs/technical-seo.md"
+          rel="noopener"
+        >
+          <strong>Technical SEO</strong>
+
+          <span>
+            Crawlability, indexability, canonical URL,
+            sitemap, HTTPS, structured data, dan performa.
+          </span>
+        </a>
+
+
+        <a
+          class="doc-link"
+          href="https://github.com/Selir69vip/selir69-official/blob/main/docs/web-development.md"
+          rel="noopener"
+        >
+          <strong>Web Development</strong>
+
+          <span>
+            Website architecture, semantic HTML,
+            responsive development, accessibility,
+            dan deployment.
+          </span>
+        </a>
+
+
+        <a
+          class="doc-link"
+          href="https://github.com/Selir69vip/selir69-official/blob/main/docs/digital-marketing.md"
+          rel="noopener"
+        >
+          <strong>Digital Marketing</strong>
+
+          <span>
+            Content strategy, digital publishing,
+            brand consistency, dan organic discovery.
+          </span>
+        </a>
+
+
+        <a
+          class="doc-link"
+          href="https://github.com/Selir69vip/selir69-official/blob/main/SECURITY.md"
+          rel="noopener"
+        >
           <strong>Security Policy</strong>
-          <span>Kebijakan pelaporan masalah keamanan repository.</span>
-        </a>
 
-        <a class="doc-link"
-           href="https://selir69.org/">
-          <strong>Official Website</strong>
-          <span>Kunjungi sumber informasi utama SELIR69.</span>
+          <span>
+            Panduan keamanan dan pelaporan masalah
+            terkait repository SELIR69 Official.
+          </span>
         </a>
 
       </div>
+
+
+      <div
+        class="resource-list"
+        aria-label="Sumber daya tambahan"
+      >
+
+        <a href="./robots.txt">
+          robots.txt
+        </a>
+
+        <a href="./sitemap.xml">
+          XML Sitemap
+        </a>
+
+        <a
+          href="https://github.com/Selir69vip/selir69-official"
+          rel="noopener"
+        >
+          GitHub Repository
+        </a>
+
+        <a
+          href="https://selir69.org/"
+          rel="noopener"
+        >
+          Official Website
+        </a>
+
+      </div>
+
     </div>
   </section>
 
@@ -461,8 +795,15 @@
 
 <footer>
   <div class="container">
-    <span>© 2026 SELIR69 Official</span>
-    <span>Web Development • SEO • Digital Marketing • Indonesia</span>
+
+    <span>
+      © 2026 SELIR69 Official
+    </span>
+
+    <span>
+      Web Development • SEO • Technical SEO • Digital Marketing • Indonesia
+    </span>
+
   </div>
 </footer>
 
