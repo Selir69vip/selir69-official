@@ -26,6 +26,24 @@ The project combines web development and digital publishing practices to build o
 
 ---
 
+## Documentation
+
+Explore the official SELIR69 project documentation:
+
+| Documentation | Description |
+|---|---|
+| [About SELIR69](docs/about.md) | Overview of the SELIR69 digital project, development approach, and project principles. |
+| [SEO Documentation](docs/seo.md) | Search engine optimization, content architecture, internal linking, indexing, and organic visibility. |
+| [Technical SEO](docs/technical-seo.md) | Crawlability, indexability, canonical URLs, XML sitemaps, HTTPS, structured data, and technical implementation. |
+| [Web Development](docs/web-development.md) | Website architecture, semantic HTML, responsive development, performance, accessibility, and deployment. |
+| [Digital Marketing](docs/digital-marketing.md) | Content strategy, digital publishing, organic discovery, brand consistency, and performance measurement. |
+
+### Quick Access
+
+**[SEO](docs/seo.md)** · **[Technical SEO](docs/technical-seo.md)** · **[Web Development](docs/web-development.md)** · **[Digital Marketing](docs/digital-marketing.md)**
+
+---
+
 ## Project Purpose
 
 The `selir69-official` repository was created to organize public documentation and development resources associated with SELIR69.
