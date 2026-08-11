@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://selir69vip.github.io/selir69-official/sitemap.xml
